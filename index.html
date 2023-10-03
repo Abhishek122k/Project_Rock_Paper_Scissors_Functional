@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RPS-STATIC</title>
+  <title>Rock Paper Scissors</title>
   <!-- Link to external CSS file -->
   <link rel="stylesheet" href="style.css" />
   <!-- Link to external JavaScript file -->
@@ -14,7 +14,7 @@
 <body>
   <!-- Header section -->
   <div id="Heading">
-    <h1>ROCK PAPER SCISSORS</h1>
+    <h1 id="element"></h1>
   </div>
 
   <!-- Contact section -->
@@ -57,6 +57,21 @@
 
   <!-- Footer section -->
   <footer>Made with ❤️ by Abhishek</footer>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Rock Paper Scissors',],
+      typeSpeed: 60,
+      loop: true,
+      smartBackspace: true,
+      // cursorChar: '_',
+      fadeOut: true,
+      fadeOutClass: 'typed-fade-out',
+      fadeOutDelay: 500,
+    });
+  </script>
+
 </body>
 
 </html>

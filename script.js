@@ -53,10 +53,10 @@ function selectChoice() {
     document.querySelector(".Cscore").innerText = computerScore;                //updating scores in score bpox
 
     if (playerScore == 3) {
-        alert("Player wins!");
+        swal("You Win.");
         resetGame();                              //condition to find who ios the qinner
     } else if (computerScore == 3) {
-        alert("Computer wins!");
+        swal("Computer Wins.");
         resetGame();
     }
 }

@@ -27,7 +27,7 @@ html {
 #score {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 4.5em;
+  margin-top: 1.5em;
   gap: 2em;
 }
 
@@ -104,12 +104,12 @@ gap: 4em;
     width: 4em;
     height: 3em;
     margin-top: 2em;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   
   #Players {
     justify-content: space-around;
-    font-size: 2.5em;
+    font-size: 1.5em;
     
   }
 
@@ -117,7 +117,7 @@ gap: 4em;
       justify-content: space-around;
       font-weight: 600;
       font-size: 1.5em;
-      margin-top: -9.5em;
+      margin-top: -12.5em;
   }
 
   #moves{

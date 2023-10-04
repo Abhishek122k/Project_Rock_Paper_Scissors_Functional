@@ -34,7 +34,7 @@ function selectChoice() {
             } else if (computer == "paper") {
                 computerScore += 1;
             }
-        } else if (player == "scissors") {                 //updating case scores
+        } else if (player == "scissors") {          //updating case scores
             if (computer == "paper") {
                 playerScore += 1;
             } else if (computer == "rock") {

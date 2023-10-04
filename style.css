@@ -57,6 +57,7 @@ html {
 #moves {
   display: flex;
   justify-content: center;
+gap: 4em;
 }
 
 .move {

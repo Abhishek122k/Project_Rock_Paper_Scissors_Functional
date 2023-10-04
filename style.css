@@ -27,7 +27,7 @@ html {
 #score {
   display: flex;
   justify-content: space-evenly;
-  margin-top: -6.5em;
+  margin-top: 4.5em;
   gap: 2em;
 }
 
@@ -75,6 +75,7 @@ html {
   justify-content: center;
   color: white;
   font-family: "Exo 2", sans-serif;
+  gap:7em;
 }
 
 /* Media queries for responsiveness */
